@@ -1,7 +1,7 @@
 name: Create a feature request
 description: Suggest features, propose improvements or discuss new ideas.
 title: "[Feature] "
-labels: ["feature"]
+labels: ["enhancement"]
 assignees:
   - hazzuk
 
