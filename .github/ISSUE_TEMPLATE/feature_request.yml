@@ -1,0 +1,38 @@
+name: Create a feature request
+description: Suggest features, propose improvements or discuss new ideas.
+title: "[Feature] "
+labels: ["feature"]
+assignees:
+  - hazzuk
+
+body:
+  - type: markdown
+    attributes:
+      value: "Feedback on how to improve this project is always appreciated. Please fill out the sections below:"
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Take a couple minutes to help the maintainers work faster.
+      options:
+        - label: I have searched for duplicate or closed feature requests
+          required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Provide detailed information on what we should add, please be sure to include as much detail and any related resources if possible.
+      placeholder: "Describe what the proposed feature or enhancement is."
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation and context
+      description: Tell us why this change is needed or would be helpful, and what problems it could help to solve.
+      placeholder: "Explain the reasons behind the proposal."
+    validations:
+      required: true
